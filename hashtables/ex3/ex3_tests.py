@@ -35,16 +35,16 @@ class TestEx2(unittest.TestCase):
 
     def test_large(self):
         arrays = [
-            list(range(1000000, 2000000)) + [1,2,3],
-            list(range(2000000, 3000000)) + [1,2,3],
-            list(range(3000000, 4000000)) + [1,2,3],
-            list(range(4000000, 5000000)) + [1,2,3],
-            list(range(5000000, 6000000)) + [1,2,3],
-            list(range(6000000, 7000000)) + [1,2,3],
-            list(range(7000000, 8000000)) + [1,2,3],
-            list(range(8000000, 9000000)) + [1,2,3],
-            list(range(9000000, 10000000)) + [1,2,3],
-            list(range(10000000, 11000000)) + [1,2,3]
+            list(range(10000, 20000)) + [1,2,3],
+            list(range(20000, 30000)) + [1,2,3],
+            list(range(30000, 40000)) + [1,2,3],
+            list(range(40000, 50000)) + [1,2,3],
+            list(range(50000, 60000)) + [1,2,3],
+            list(range(60000, 70000)) + [1,2,3],
+            list(range(70000, 80000)) + [1,2,3],
+            list(range(80000, 90000)) + [1,2,3],
+            list(range(90000, 100000)) + [1,2,3],
+            list(range(100000, 110000)) + [1,2,3]
         ]
 
         result = intersection(arrays)

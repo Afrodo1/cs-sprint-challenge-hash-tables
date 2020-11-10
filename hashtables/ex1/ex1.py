@@ -19,6 +19,7 @@ def get_indices_of_item_weights(weights, length, limit):
                 lis[0] = x
             if lis[1] is weights[x]:
                 lis[1] = x
+        print(lis)
         return lis
     
 
@@ -27,4 +28,3 @@ def get_indices_of_item_weights(weights, length, limit):
     
 weights = [12, 6, 7, 14, 19, 3, 0, 25, 40]
 
-print(get_indices_of_item_weights(weights,9,7))
